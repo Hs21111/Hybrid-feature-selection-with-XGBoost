@@ -1,0 +1,54 @@
+column_name,description,categorical_continuous,input_target,unit,data_type,fill_value,preparation
+id,Station ID,categorical,index,-,int,,None
+country,Country,categorical,input,-,str,,one-hot
+htap_region,HTAP region,categorical,input,-,str,,one-hot
+climatic_zone,Climatic zone,categorical,input,-,str,,one-hot
+lon,Longitude,continuous,input,deg,float,,circular
+lat,Latitude,continuous,input,deg,float,,scale
+alt,Altitude,continuous,input,m,float,,scale
+relative_alt,Relative altitude,continuous,input,m,float,,scale
+type,Type,categorical,input,-,str,,one-hot
+type_of_area,Type of area,categorical,input,-,str,,one-hot
+water_25km,Water in 25km area,continuous,input,%,float,,scale
+evergreen_needleleaf_forest_25km,Evergreen needleleaf forest in 25km area,continuous,input,%,float,,scale
+evergreen_broadleaf_forest_25km,Evergreen broadleaf forest in 25km area,continuous,input,%,float,,scale
+deciduous_needleleaf_forest_25km,Deciduous needleleaf forest in 25km area,continuous,input,%,float,,scale
+deciduous_broadleaf_forest_25km,Deciduous broadleaf forest in 25km area,continuous,input,%,float,,scale
+mixed_forest_25km,Mixed forest in 25km area,continuous,input,%,float,,scale
+closed_shrublands_25km,Closed shrublands in 25km area,continuous,input,%,float,,scale
+open_shrublands_25km,Open shrublands in 25km area,continuous,input,%,float,,scale
+woody_savannas_25km,Woody savannas in 25km area,continuous,input,%,float,,scale
+savannas_25km,Savannas in 25km area,continuous,input,%,float,,scale
+grasslands_25km,Grasslands in 25km area,continuous,input,%,float,,scale
+permanent_wetlands_25km,Permanent wetlands in 25km area,continuous,input,%,float,,scale
+croplands_25km,Croplands in 25km area,continuous,input,%,float,,scale
+urban_and_built-up_25km,Urban And Built-Up in 25km area,continuous,input,%,float,,scale
+cropland-natural_vegetation_mosaic_25km,Cropland / Natural vegetation mosaic in 25km area,continuous,input,%,float,,scale
+snow_and_ice_25km,Snow and ice in 25km area,continuous,input,%,float,,scale
+barren_or_sparsely_vegetated_25km,Barren or sparsely vegetated in 25km area,continuous,input,%,float,,scale
+wheat_production,Wheat production,continuous,input,1000 tons,float,,scale
+rice_production,Rice production,continuous,input,1000 tons,float,,scale
+nox_emissions,NOx emissions,continuous,input,g m-2 y-1,float,,scale
+no2_column,NO2 column,continuous,input,10^5 molec cm-2,float,,scale
+population_density,Population density,continuous,input,person km-2,float,,scale
+max_population_density_5km,Max population density 5km,continuous,input,person km-2,float,,scale
+max_population_density_25km,Max population density 25km,continuous,input,person km-2,float,,scale
+nightlight_1km,Nightlight 1km,continuous,input,-,float,,scale
+nightlight_5km,Nightlight 5km,continuous,input,-,float,,scale
+max_nightlight_25km,Max nightlight 25km,continuous,input,-,float,,scale
+o3_average_values,Ozone average values,continuous,target,ppb,float,,scale
+o3_daytime_avg,Ozone daytime avg,continuous,target,ppb,float,-999,scale
+o3_nighttime_avg,Ozone nighttime avg,continuous,target,ppb,float,-999,scale
+o3_median,Ozone mediam,continuous,target,ppb,float,-999,scale
+o3_perc25,Ozone 25% percentile,continuous,target,ppb,float,-999,scale
+o3_perc75,Ozone 75% percentile,continuous,target,ppb,float,-999,scale
+o3_perc90,Ozone 90% percentile,continuous,target,ppb,float,-999,scale
+o3_perc98,Ozone 98% percentile,continuous,target,ppb,float,-999,scale
+o3_dma8eu,Ozone dma8eu,continuous,target,-,float,-999,scale
+o3_avgdma8epax,Ozone avgdma8epax,continuous,target,-,float,-999,scale
+o3_drmdmax1h,Ozone drmdmax1h,continuous,target,-,float,-999,scale
+o3_w90,Ozone w90,continuous,target,-,float,-999,scale
+o3_aot40,Ozone aot40,continuous,target,-,float,-999,scale
+o3_nvgt070,Ozone nvgt070,continuous,target,-,float,-999,scale
+o3_nvgt100,Ozone nvgt100,continuous,target,-,float,-999,scale
+dataset,"Data Set (train, val, test)",categorical,dataset,-,str,,None

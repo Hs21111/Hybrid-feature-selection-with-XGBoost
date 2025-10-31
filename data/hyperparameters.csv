@@ -1,0 +1,16 @@
+column_name,hidden layers,activation,loss,learning rate,L2 lambda,batch size,epochs
+o3_average_values,"[20, 5]",relu,mse,0.0001,0.01,32,250
+o3_daytime_avg,"[20, 5]",relu,mse,0.0001,0.01,32,250
+o3_nighttime_avg,"[20, 5]",relu,mse,0.0001,0.01,32,250
+o3_median,"[20, 5]",relu,mse,0.0001,0.01,32,250
+o3_perc25,"[20, 5]",relu,mse,0.001,0.01,64,100
+o3_perc75,"[20, 5]",relu,mse,0.001,0.01,256,250
+o3_perc90,"[20, 5]",relu,mse,0.001,0.01,256,250
+o3_perc98,"[20, 5]",relu,mse,0.001,0.01,256,250
+o3_dma8eu,"[20, 5]",relu,mse,0.001,0.01,128,250
+o3_avgdma8epax,"[20, 5]",relu,mse,0.0001,0.01,32,250
+o3_drmdmax1h,"[20, 5]",relu,mse,0.0002,0.01,32,150
+o3_w90,"[20, 5]",relu,mse,0.0001,0.01,32,250
+o3_aot40,"[20, 5]",relu,mse,0.01,0.01,128,250
+o3_nvgt070,"[20, 5]",relu,mse,0.0001,0.01,32,150
+o3_nvgt100,"[20, 5]",relu,mse,1E-05,0.01,32,200
